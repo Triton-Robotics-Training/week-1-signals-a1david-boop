@@ -1,6 +1,6 @@
 Question 1: Explain the difference between analog and digital signals.
-
+Analog signals can have any value within a range whereas digital signals are more restricted and have a finite set of possible values usually between 0 and 1.
 Question 2: Give an example of something that uses digital signals and how it uses it.
-
+In the first exercise for this week when we press the button it sends a digital value of 1 to turn on the led and when we let go it changes the value to 0 to turn the led off.
 Question 3: Give an example of something that uses analog signals and how it uses it.
-
+In the second exercise for this week, the potentiometer had a value that ranged from 0 to 3.3 V. The mbed library changed this value to a number between 0 and 1 for the microcontroller to use. The microcontroller then used this number to control how long the LED stayed on, allowing the LED flicker time to change smoothly even if I turned the potentiometer instantanously. 
